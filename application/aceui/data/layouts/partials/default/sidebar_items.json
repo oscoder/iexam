@@ -1,0 +1,22 @@
+[
+    { "link" :"index", "title" : "控制面板", "icon" : "fa fa-tachometer" } ,
+    {
+        "link" : null, "title" : "内容管理" , "icon" : "fa fa-desktop",
+        "submenu" :
+            [
+                { "link" : "posted", "title" : "已发布" } ,
+
+                { "link" : "unchecked" , "title" : "待审核" }
+            ]
+    } ,
+
+    {
+        "link" : null , "title" : "采集管理" , "icon" : "fa fa-list-alt",
+        "submenu" :
+            [
+                { "link" : "area", "title" : "区域点管理" } ,
+                { "link" : "collect", "title" : "采集点管理" }
+            ]
+
+    }
+]
